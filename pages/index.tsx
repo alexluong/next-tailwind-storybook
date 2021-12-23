@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
+import { Greeting } from "../components/Greeting";
 
 const Home: NextPage = () => {
   return (
     <div className="flex justify-center items-center h-screen">
-      <p className="text-green-500 text-5xl">Hello, World!</p>
+      <Greeting>Hello, World!</Greeting>
     </div>
   );
 };
